@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--1) HEAD: not visible, info about the page -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO meta -->
+      <meta name="description" content="Contact page of my basic HTML website." />
+    <!-- Tab name -->
+      <title>Contact</title>
+  </head>
+  <!-- 2) BODY: everything visible goes here -->
+  <body>
+    <!--3) HEADER: top area (usually logo + nav) -->
+    <header>
+      <nav aria-label="Primary navigation">
+        <a href="index.html">Home</a> 
+        <a href="projects.html">Projects</a> 
+        <a href="articles.html">Articles</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact</h1>
+      
+      <section>
+        <h2>Contact information</h2>
+        <p>This is the contact page content.</p>
+        <p>Email: -------------------</p>
+        <p>Phone: (000) 000-0000</p>
+      </section>
+      <section>
+  <h2>Send a Message</h2>
+
+  <form action="#" method="post">
+    <p>
+      <label for="name">Name:</label><br />
+      <input id="name" name="name" type="text" required />
+    </p>
+
+    <p>
+      <label for="email">Email:</label><br />
+      <input id="email" name="email" type="email" required />
+    </p>
+    
+     <p>
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="6" required></textarea>
+    
+     </p>
+      <button type="submit">Send</button>
+  </form>
+</section>
+    </main>
+    <!--5) FOOTER: bottom area -->
+    <footer>
+      <p>&copy; 2026 Your Name</p>
+    </footer>
+  </body>
+</html>  
